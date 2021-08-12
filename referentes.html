@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betty Holberton</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./queries.css">
+    <link rel="icon" href="./img/logo3.png" type="image/png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css" />
+
+</head>
+<body class="" onresize="FunctionResize()">
+    
+    <header>
+        <div class="cont__header_hamburguer" hidden=true>
+            <div class="cont_menu_top">
+                <div class="logo__bh">
+                    <a class="name__web" href="#">
+                        <img src="./img/logo2.png" alt="BH">
+                    </a>
+                </div>
+
+                <div class="hamburger hamburger--vortex" onclick="toggleMenu()">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="menuppal">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./referentes.html">Otras referentes</a></li>
+                    <li><a href="./bibliography.html">Bibliografía</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <nav id="navbar" class="navbar navbar-light px-3">
+            <a class="name__web" href="#">
+                <img src="./img/logo2.png" alt="BH">
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./referentes.html">Otras referentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./bibliography.html">Bibliografia</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="fullPage2">
+
+        <section class="section s1">
+            <div id="container" class="container">
+                <p class="creditos space">
+                    <a href="./index.html">
+                        Betty Hamilton.
+                    </a><br>
+                    Creado por <a href="https://www.linkedin.com/in/allen-alarcon/">Allen Jimenez</a>, <a href="https://www.linkedin.com/in/omar-loza/">Omar Loza</a> y <a href="https://www.linkedin.com/in/alicia-mena-perez">Alicia Mena</a>.
+                </p>
+                <div id="panel" class="panel">
+                    <a href="./index.html">
+                        <div id="panel-container" class="panel-container">
+                            <div id="panel-content" class="panel-content">
+                                <img src="http://imgfz.com/i/250dBsu.png">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section s2">
+            <div id="container2" class="container2">
+                <p class="creditos space">
+                    <a href="https://prezi.com/view/n2Xd6nOKsUzR1RiUihgc/">
+                        Evelyn Berezin.
+                    </a><br>
+                    Creado por <a href="https://www.linkedin.com/in/claudia-amat-673131201/">Clàudia Amat</a> y <a href="https://www.linkedin.com/in/miquel-garrigo/">Miquel Garrigó</a>.
+                </p>
+                <div id="panel2" class="panel2">
+                    <div id="panel-container2" class="panel-container2">
+                        <div id="panel-content2" class="panel-content2">
+                            <img src="http://imgfz.com/i/oMmOLwU.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section s3">
+            <div id="container" class="container">
+                <p class="creditos space rosa">
+                    <a href="https://drive.google.com/file/d/1qaqgWLExMR0wLvHuuRw3V2FZ-s9lHPpF/view?usp=sharing">
+                        Margaret Hamilton.
+                    </a><br>
+                    Creado por <a href="https://www.linkedin.com/in/rubenquintanaarque0804199812345678/">Rubén Quintana</a> y <a href="#">Joan Izquierdo</a>.
+                </p>
+                <div id="panel" class="panel">
+                    <a href="https://drive.google.com/file/d/1qaqgWLExMR0wLvHuuRw3V2FZ-s9lHPpF/view?usp=sharing">
+                        <div id="panel-container" class="panel-container">
+                            <div id="panel-content" class="panel-content">
+                                <img src="http://imgfz.com/i/SBn26Ti.png">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+    <script src="main.js"></script>
+
+
+
+</body>
+</html>
